@@ -13,6 +13,13 @@
 
     <dependencies>
 
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+
         <dependency>
             <groupId>com.gao.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
