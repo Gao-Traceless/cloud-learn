@@ -1,6 +1,6 @@
 package com.gao.springcloud.service;
 
-import com.gao.springcloud.entities.Payment;
+import com.gao.springcloud.entites.Payment;
 import org.apache.ibatis.annotations.Param;
 
 public interface PaymentService {

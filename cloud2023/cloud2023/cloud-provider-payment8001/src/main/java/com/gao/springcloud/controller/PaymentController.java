@@ -1,13 +1,12 @@
 package com.gao.springcloud.controller;
 
 
-import com.gao.springcloud.entities.CommonResult;
-import com.gao.springcloud.entities.Payment;
+import com.gao.springcloud.entites.CommonResult;
+import com.gao.springcloud.entites.Payment;
 import com.gao.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 
 @RestController
